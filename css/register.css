@@ -1,0 +1,71 @@
+body {
+	height: 2000px;
+}
+.header {
+	height: 82px;
+	line-height: 82px;
+	border-bottom: 2px solid #B1191A;
+}
+.main {
+	margin-top: 20px;
+	width: 1198px;
+	height: 520px;
+	border: 1px solid #ccc;
+}
+.top {
+	height: 40px;
+	line-height: 40px;
+	background-color: #ECECEC;
+	border-bottom: 1px solid #ccc;
+}
+.one {
+	padding-left: 10px;
+	font-size: 18px;
+}
+.two {
+	float: right;
+	padding-right: 10px;
+	font-size: 14px;
+}
+.two a {
+	color: #C81623;
+}
+.content {
+	width: 600px;
+	height: 400px;
+	margin:40px auto;
+	border: 1px solid red;
+}
+form {
+	display: block;
+}
+.content label,
+.content span,
+.content i {
+	display: inline-block;
+}
+label {
+	width: 70px;
+	height: 36px;
+	line-height: 36px;
+	text-align: right;
+}
+.content li {
+	box-sizing:border-box;
+	line-height: 36px;
+}
+.content input {
+ 	width: 238px;
+ 	height: 34px;
+ 	border: 1px solid #ccc;
+}
+.content .one { 
+	width: 20px;
+	height: 20px;
+	background: url(../img/error.png) no-repeat;
+	vertical-align: middle;
+	margin-top: -2px;
+}
+.content span {
+	color: #DF3033;
+}

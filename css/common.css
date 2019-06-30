@@ -1,0 +1,252 @@
+/*公共样式*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?7kkyc2');
+    src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+	/*height: 5000px;*/
+}
+.special {
+	font-family: 'icomoon';
+	font-size: 16px;
+	line-height: 26px;
+}
+.comnon {
+	font-family: 'icomoon';
+}
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.style-red {
+	color: #c81623;
+}
+.shortcut {
+	height: 31px;
+	line-height: 31px;
+	background-color: #f1f1f1;
+}
+.shortcut li {
+	float: left;
+}
+.shortcut .spacer {
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 9px 12px 0;
+}
+.header {
+	position: relative;
+	height: 105px;
+}
+.logo {
+	position: absolute;
+	top:25px;
+	left:0;
+	width: 175px;
+	height: 56px;
+}
+.logo a {
+	width: 175px;
+	height: 56px;
+	display: block;
+	background:url(../img/logo1.png) no-repeat;
+	font-size: 0;
+}
+.search {
+	position: absolute;
+	top: 25px;
+	left: 348px;
+}
+.search input {
+	float: left;
+	width: 445px;
+	height: 32px;
+	padding-left: 10px;
+	border: 2px solid #b1191a;
+	color: #ccc;
+}
+.search button {
+	float: left;
+	width: 82px;
+	height: 36px;
+	border: 0;
+	font-size: 16px;
+	color:#fff;
+	background-color: #b1191a;
+}
+.hotwrods {
+	position: absolute;
+	top:65px;
+	left: 348px;
+}
+.hotwrods a {
+	margin: 0 10px;
+}
+.shopcar {
+	width: 138px;
+	height: 34px;
+	line-height: 34px;
+	border: 1px solid #dfdfdf;
+	position: absolute;
+	top:25px;
+	right: 64px;
+	text-align: center;
+	background-color: #f7f7f7;
+
+}
+.arrow {
+	margin-left: 5px;
+}
+.count {
+	position: absolute;
+	top:-5px;
+	right: 18px;
+	background-color: #e60012;
+	height: 14px;
+	line-height: 14px;
+	padding:0 3px;
+	border-radius:7px 7px 7px 0;
+	color: #fff;
+}
+.nav {
+	height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+.dorpdown {
+	width: 209px;
+	height: 45px;
+}
+.dorpdown .dt {
+	height: 100%;
+	line-height: 45px;
+	background-color: #B1191A;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+}
+.dorpdown .dd {
+	padding-left: 1px;
+	height: 465px;
+	margin-top: 2px;
+	background-color: #C81623;
+}
+.dd li {
+	padding-left: 10px;
+	height: 31px;
+	line-height: 31px;
+	transition: all 0.5s;
+}
+.dd li a {
+	color: #fff;
+	font-size: 14px;
+}
+.dd li:hover{
+	background-color: #fff;
+	padding-left: 20px;
+}
+.dd li:hover a {
+	color: #C81623;
+}
+.dd i {
+	float: right;
+	margin-right: 10px;
+	font-family: 'icomoon';
+	font-size: 18px;
+	color: #fff;
+}
+.navitems {
+	margin-left: 10px;
+}
+.navitems li {
+	height: 45px;
+	line-height: 45px;
+	float: left;
+	padding: 0 25px;
+	
+}
+.navitems li a {
+	color: #666666;
+	font-size: 16px;
+}
+.navitems li a:hover {
+	color: #C81623;
+}
+.footer {
+	height: 386px;
+	background-color: #F5F5F5;
+	padding-top: 30px;
+}
+.mod_service {
+	height: 79px;
+	border-bottom: 1px solid #ccc;
+}
+.mod_service li {
+	float: left;
+	width: 240px;
+	height: 79px;
+}
+.mod_service i {
+	margin: 0 5px 0 35px;
+	float: left;
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url(../img/icons.png) no-repeat;
+}
+.mod_service .mod_service_zheng {
+	background-position: -253px -3px;
+}
+.mod_service .mod_service_che {
+	background-position: -255px -54px;
+}
+.mod_service .mod_service_bao {
+	background-position: -257px -105px;
+}
+.mod_service_tit h5 {
+	margin: 5px 0;
+}
+.mod_help {
+	height: 187px;
+	border-bottom: 1px solid #ccc;
+}
+.mod_help dl {
+	float: left;
+	width: 150px;
+	padding: 25px 0 0 50px;
+}
+.mod_help dt {
+	font-size: 16px;
+	height: 25px;
+}
+.mod_help dd {
+	height: 22px;
+}
+.mod_help .zhongxin dt {
+	margin:0 0 5px 13px ;
+}
+.mod_help .app {
+	width: 90px;
+	height: 90px;
+
+}
+.zhongxin p {
+	margin:3px 0 0 13px;
+}
+.mod_copyright p {
+	text-align: center;
+	margin: 27px 0;
+}
